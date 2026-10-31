@@ -65,13 +65,19 @@ Original websites and Traefik passed selected preservation checks. See the
 [repeat verification](studio/evidence.json) and [SPEC.md](SPEC.md).
 
 The requested fresh `python3 studio.py check --fast` passed Black, Pylint and
-91 tests. Two local browser E2E tests were deselected/not run. GitHub CI is
-pending and has not yet run; no PR, merge or successful CI result is claimed. [Issue #1](https://github.com/kushalpatel71/my-server-studio/issues/1)
+91 tests. Two local browser E2E tests were deselected/not run. Subsequently,
+[PR #2](https://github.com/kushalpatel71/my-server-studio/pull/2) was merged with learner approval.
+[PR CI](https://github.com/kushalpatel71/my-server-studio/actions/runs/41253368220) and
+[main CI](https://github.com/kushalpatel71/my-server-studio/actions/runs/41253684225) passed all three required jobs.
+Each CI run passed 91 unit/integration tests and both real-image Chromium E2E
+tests using an isolated runner fixture, separate from the personal browser observation. [Issue #1](https://github.com/kushalpatel71/my-server-studio/issues/1)
 records the work; it remains open.
 
 ## Review
 
 Approved by the learner on 2026-10-31 for accuracy and publication of the
-reviewed statements and disclosed AI assistance. Commit, push and PR creation
-are authorized; merge and issue closure require separate approval.
+reviewed statements and disclosed AI assistance. Publication and PR #2 merge
+were separately authorized. The documentation-only follow-up is approved for
+publication; its merge and Issue #1 closure await separate approval. Learner
+statements are unchanged.
 Approval confirms record accuracy; it is not a grade or proof of understanding.
