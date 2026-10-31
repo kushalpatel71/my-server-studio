@@ -85,6 +85,26 @@ claims. Timestamps record activity, not learning.
 **Returning later:** reopen the same clone/chat and ask the coach to read SPEC
 and LEARNING and resume the next checkpoint. You normally do not clone again.
 
+## Lesson 01 · current evidence
+
+[Live calculator](https://calc.192.81.212.73.sslip.io/) ·
+[STUDIO-001 issue](https://github.com/kushalpatel71/my-server-studio/issues/1) ·
+[Specification](SPEC.md) · [Learning record for review](LEARNING.md).
+
+The supplied pinned image was newly launched and runtime/API verification
+passed while preserving the existing websites. The original
+[launch evidence](studio/launch-evidence.json) is separate from the latest
+[repeat verification](studio/evidence.json).
+
+Fresh local `python3 studio.py check --fast`: Black/Pylint passed, 91 tests
+passed, two browser E2E tests deselected/not run. Full E2E and GitHub CI have
+not run for this work; GitHub CI remains pending. The learner wrote and reviewed
+the prediction, browser-observation wording, test interpretation and keep/revise
+explanation with AI drafting assistance, as disclosed in LEARNING.md. The personally confirmed browser test
+is separate from Codex API checks. Documentation accuracy/publication was approved on 2026-10-31. Commit, push
+and PR creation are authorized; CI review remains pending. Merge and issue
+closure require separate approval.
+
 ## Next · build your application
 
 After keeping the calculator lesson, start the separate
