@@ -71,13 +71,13 @@ The requested fresh `python3 studio.py check --fast` passed Black, Pylint and
 [main CI](https://github.com/kushalpatel71/my-server-studio/actions/runs/41253684225) passed all three required jobs.
 Each CI run passed 91 unit/integration tests and both real-image Chromium E2E
 tests using an isolated runner fixture, separate from the personal browser observation. [Issue #1](https://github.com/kushalpatel71/my-server-studio/issues/1)
-records the work; it remains open.
+records the work and its current completion state.
 
 ## Review
 
 Approved by the learner on 2026-10-31 for accuracy and publication of the
 reviewed statements and disclosed AI assistance. Publication and PR #2 merge
-were separately authorized. The documentation-only follow-up is approved for
-publication; its merge and Issue #1 closure await separate approval. Learner
-statements are unchanged.
+were separately authorized. See [documentation PR #3](https://github.com/kushalpatel71/my-server-studio/pull/3) and
+[Issue #1](https://github.com/kushalpatel71/my-server-studio/issues/1) for current merge, CI and completion state. Learner statements
+are unchanged.
 Approval confirms record accuracy; it is not a grade or proof of understanding.

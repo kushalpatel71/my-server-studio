@@ -2,8 +2,8 @@
 
 ## STUDIO-001 · Launch a tested calculator on an existing server
 
-**Status:** New launch, runtime verification and fresh fast checks passed. Learner reports a successful personal browser test and a keep decision. Documentation accuracy/publication approved on 2026-10-31. PR #2 merged; required PR and main CI passed. Final documentation correction and issue closure remain pending.
-**Next step:** Review the documentation follow-up PR and its actual CI. Its merge and Issue #1 closure require separate learner approval.
+**Status:** New launch, runtime verification and fresh fast checks passed. Learner reports a successful personal browser test and a keep decision. Documentation accuracy/publication approved on 2026-10-31. PR #2 merged; required PR and main CI passed.
+**GitHub state:** See [documentation PR #3](https://github.com/kushalpatel71/my-server-studio/pull/3) for its merge/check state and [Issue #1](https://github.com/kushalpatel71/my-server-studio/issues/1) for acceptance evidence and completion state.
 **Issue:** [STUDIO-001 #1](https://github.com/kushalpatel71/my-server-studio/issues/1).
 **Original feature branch:** `studio-001-prerequisite-review`.
 **Documentation follow-up branch:** `docs/studio-001-final-evidence`.
@@ -128,7 +128,7 @@ Pylint and 91 tests, with two local E2E tests deselected/not run.
   Black/Pylint, 91 unit/integration tests and both real-image Chromium E2E tests.
   The two local Mac E2E tests remain unrun; CI E2E used an isolated runner fixture.
 - The five approved files were verified on main, publicly accessible and matching
-  the reviewed PR head. Issue #1 remains open; the follow-up PR merge and issue closure await separate approval.
+  the reviewed PR head. The [documentation PR #3](https://github.com/kushalpatel71/my-server-studio/pull/3) and [Issue #1](https://github.com/kushalpatel71/my-server-studio/issues/1) provide the current GitHub state.
 
 ## Remaining lesson/GitHub evidence
 
@@ -141,7 +141,7 @@ Pylint and 91 tests, with two local E2E tests deselected/not run.
 | Learner browser observation | Supplied: Chrome 6 × 7 displayed 42; HTTPS without warnings. Codex API results remain separate; no learner API-panel observation inferred |
 | Keep/revise decision and reason | AI-assisted explanation reviewed by the learner; learner chose keep, citing working calculation, HTTPS and preserved QA/production sites; record approved for accuracy/publication |
 | LEARNING.md accuracy/publication review | Approved by the learner on 2026-10-31 |
-| Actual PR, merge, latest main CI and issue closure | PR #2 merged; main run #8 passed; Issue #1 remains open pending documentation correction |
+| Actual PR, merge, latest main CI and issue closure | PR #2 merged; main run #8 passed. See [documentation PR #3](https://github.com/kushalpatel71/my-server-studio/pull/3) and [Issue #1](https://github.com/kushalpatel71/my-server-studio/issues/1) for subsequent merge, CI and completion evidence |
 
 Learner excerpts and sanitized exports were reviewed and approved. Before
 merge, verify every Markdown target/anchor and screenshot's existence, label and

@@ -103,8 +103,8 @@ and [main CI](https://github.com/kushalpatel71/my-server-studio/actions/runs/412
 the prediction, browser-observation wording, test interpretation and keep/revise
 explanation with AI drafting assistance, as disclosed in LEARNING.md. The personally confirmed browser test
 is separate from Codex API checks. Documentation accuracy/publication was approved on 2026-10-31. [PR #2](https://github.com/kushalpatel71/my-server-studio/pull/2) was merged with approval; all three required CI jobs passed.
-The documentation follow-up is approved for publication; its merge and Issue #1
-closure await separate approval. See SPEC.md for direct links to all six CI jobs.
+See [documentation PR #3](https://github.com/kushalpatel71/my-server-studio/pull/3) and [Issue #1](https://github.com/kushalpatel71/my-server-studio/issues/1) for current merge, CI and completion state.
+SPEC.md preserves direct links to all six historical CI jobs.
 
 ## Next · build your application
 
