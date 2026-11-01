@@ -2,10 +2,11 @@
 
 ## STUDIO-001 · Launch a tested calculator on an existing server
 
-**Status:** New launch, runtime verification and fresh fast checks passed. Learner reports a successful personal browser test and a keep decision. Documentation accuracy/publication approved on 2026-10-31. PR/CI review remains pending.
-**Next step:** Publish the approved five files on the existing feature branch, open the PR and observe actual CI. Merge and issue closure are not authorized.
+**Status:** New launch, runtime verification and fresh fast checks passed. Learner reports a successful personal browser test and a keep decision. Documentation accuracy/publication approved on 2026-10-31. PR #2 merged; required PR and main CI passed.
+**GitHub state:** See [documentation PR #3](https://github.com/kushalpatel71/my-server-studio/pull/3) for its merge/check state and [Issue #1](https://github.com/kushalpatel71/my-server-studio/issues/1) for acceptance evidence and completion state.
 **Issue:** [STUDIO-001 #1](https://github.com/kushalpatel71/my-server-studio/issues/1).
-**Feature branch:** `studio-001-prerequisite-review`.
+**Original feature branch:** `studio-001-prerequisite-review`.
+**Documentation follow-up branch:** `docs/studio-001-final-evidence`.
 
 ## Agreed result and actual implementation
 
@@ -95,28 +96,52 @@ deployed calculator has been supplied or referenced as evidence.
 
 Fresh local `python3 studio.py check --fast` passed Black, Pylint and 91 tests,
 with two browser E2E tests deselected/not run. It does not establish full browser
-E2E or successful CI. The launch and verification reports remain distinct and
-retain their original provenance; the documentation review did not redeploy.
+E2E or successful CI by itself; subsequent successful CI is linked below.
+The launch and verification reports remain distinct and retain their original
+provenance; the documentation review did not redeploy.
 
-Documentation review checked 35 local file/anchor references and seven external
+The original documentation review checked 35 local file/anchor references and seven external
 HTTPS links across the proposed Markdown files and README: all passed. There
 are no screenshot file references to validate. The five-file proposal contains
 no passwords, certificate/key material, recovery archives or private server
 configuration. Sanitized exports retain intended public URL, image/commit/
-container identifiers, timestamps and check results. Only these five reviewed files are approved for publication.
+container identifiers, timestamps and check results. The original five-file
+publication was approved. This follow-up changes only SPEC.md, README.md and
+technical status in LEARNING.md; both exports stay unchanged. Its link audit
+passed 35 local references and 17 external HTTPS targets; sensitive-information
+and whitespace checks passed. The prepared fast check again passed Black,
+Pylint and 91 tests, with two local E2E tests deselected/not run.
+
+## GitHub publication evidence
+
+- **Merged PR:** [PR #2](https://github.com/kushalpatel71/my-server-studio/pull/2).
+- **Actual merge commit:** [5a4af76ce7c2f8c3759b19a4763b1d36420cde84](https://github.com/kushalpatel71/my-server-studio/commit/5a4af76ce7c2f8c3759b19a4763b1d36420cde84).
+- **Successful PR CI:** [Run #7](https://github.com/kushalpatel71/my-server-studio/actions/runs/41253368220).
+- **Successful main CI:** [Run #8](https://github.com/kushalpatel71/my-server-studio/actions/runs/41253684225), for the merge commit above.
+
+| Successful run | validate | integration-contract | studio |
+|---|---|---|---|
+| PR #2, run #7 | [Passed](https://github.com/kushalpatel71/my-server-studio/actions/runs/41253368220/job/124691316513) | [Passed](https://github.com/kushalpatel71/my-server-studio/actions/runs/41253368220/job/124691316663) | [Passed](https://github.com/kushalpatel71/my-server-studio/actions/runs/41253368220/job/124691316592) |
+| Main, run #8 | [Passed](https://github.com/kushalpatel71/my-server-studio/actions/runs/41253684225/job/124692251932) | [Passed](https://github.com/kushalpatel71/my-server-studio/actions/runs/41253684225/job/124692251906) | [Passed](https://github.com/kushalpatel71/my-server-studio/actions/runs/41253684225/job/124692251797) |
+
+- **Jobs:** validate, integration-contract and studio all passed. Studio passed
+  Black/Pylint, 91 unit/integration tests and both real-image Chromium E2E tests.
+  The two local Mac E2E tests remain unrun; CI E2E used an isolated runner fixture.
+- The five approved files were verified on main, publicly accessible and matching
+  the reviewed PR head. The [documentation PR #3](https://github.com/kushalpatel71/my-server-studio/pull/3) and [Issue #1](https://github.com/kushalpatel71/my-server-studio/issues/1) provide the current GitHub state.
 
 ## Remaining lesson/GitHub evidence
 
 | Evidence | Actual result / gap |
 |---|---|
 | Fresh prepared check --fast, documentation review | Black and Pylint passed; 91 tests passed; two browser E2E tests deselected/not run |
-| Full E2E and GitHub CI | Two local browser E2E tests not run; GitHub CI pending and not yet run; no successful CI link claimed |
+| Full E2E and GitHub CI | Two local browser E2E tests not run; both E2E tests ran and passed in PR and main CI, linked above |
 | Learner prediction | AI-assisted draft reviewed by the learner; assistance disclosed in approved LEARNING.md |
 | Learner check interpretation | AI-assisted wording reviewed by the learner: API arithmetic result establishes that case, not all operations or complete browser behavior; record approved for accuracy/publication |
 | Learner browser observation | Supplied: Chrome 6 × 7 displayed 42; HTTPS without warnings. Codex API results remain separate; no learner API-panel observation inferred |
 | Keep/revise decision and reason | AI-assisted explanation reviewed by the learner; learner chose keep, citing working calculation, HTTPS and preserved QA/production sites; record approved for accuracy/publication |
 | LEARNING.md accuracy/publication review | Approved by the learner on 2026-10-31 |
-| Actual PR, merge, latest main CI and issue closure | Pending; no PR/CI stage started |
+| Actual PR, merge, latest main CI and issue closure | PR #2 merged; main run #8 passed. See [documentation PR #3](https://github.com/kushalpatel71/my-server-studio/pull/3) and [Issue #1](https://github.com/kushalpatel71/my-server-studio/issues/1) for subsequent merge, CI and completion evidence |
 
 Learner excerpts and sanitized exports were reviewed and approved. Before
 merge, verify every Markdown target/anchor and screenshot's existence, label and

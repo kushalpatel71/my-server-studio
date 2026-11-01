@@ -89,7 +89,7 @@ and LEARNING and resume the next checkpoint. You normally do not clone again.
 
 [Live calculator](https://calc.192.81.212.73.sslip.io/) ·
 [STUDIO-001 issue](https://github.com/kushalpatel71/my-server-studio/issues/1) ·
-[Specification](SPEC.md) · [Learning record for review](LEARNING.md).
+[Specification](SPEC.md) · [Reviewed learning record](LEARNING.md).
 
 The supplied pinned image was newly launched and runtime/API verification
 passed while preserving the existing websites. The original
@@ -97,13 +97,14 @@ passed while preserving the existing websites. The original
 [repeat verification](studio/evidence.json).
 
 Fresh local `python3 studio.py check --fast`: Black/Pylint passed, 91 tests
-passed, two browser E2E tests deselected/not run. Full E2E and GitHub CI have
-not run for this work; GitHub CI remains pending. The learner wrote and reviewed
+passed, two local browser E2E tests deselected/not run. Subsequently, both
+Chromium E2E tests passed in [PR CI](https://github.com/kushalpatel71/my-server-studio/actions/runs/41253368220)
+and [main CI](https://github.com/kushalpatel71/my-server-studio/actions/runs/41253684225). The learner wrote and reviewed
 the prediction, browser-observation wording, test interpretation and keep/revise
 explanation with AI drafting assistance, as disclosed in LEARNING.md. The personally confirmed browser test
-is separate from Codex API checks. Documentation accuracy/publication was approved on 2026-10-31. Commit, push
-and PR creation are authorized; CI review remains pending. Merge and issue
-closure require separate approval.
+is separate from Codex API checks. Documentation accuracy/publication was approved on 2026-10-31. [PR #2](https://github.com/kushalpatel71/my-server-studio/pull/2) was merged with approval; all three required CI jobs passed.
+See [documentation PR #3](https://github.com/kushalpatel71/my-server-studio/pull/3) and [Issue #1](https://github.com/kushalpatel71/my-server-studio/issues/1) for current merge, CI and completion state.
+SPEC.md preserves direct links to all six historical CI jobs.
 
 ## Next · build your application
 
